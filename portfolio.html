@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Khula:wght@300&family=Playfair+Display+SC&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS File-->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="img/logo.jpg" type="image/icon type">
+    <title>Vargas</title>
+  </head>
+
+  <body>
+    <header class="header">
+        <a href="#home" class="logo">
+            <img src="img/Logo.jpg" alt="JMV">
+        </a>
+        <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="portfolio.html" target="_blank">Portfolio</a>
+            <a href="about.html" target="_blank">About</a>
+            <a href="contact.html" target="_blank" class="contact-button">Contact Me</a> 
+        </nav>
+    </header>
+
+    <!-- My Portfolio Section -->
+    <section>
+      <div class="portfolio" id="portfolio">
+        <div class="main-text">
+          <h1>My Portfolio</h1>
+        </div>
+
+        <div class="fillter-buttons">
+          <input type="radio" name="fillter-buttons" id="programming" checked />
+          <label for="programming">Coding</label>
+
+          <input type="radio" name="fillter-buttons" id="photoshoot" />
+          <label for="photoshoot">Photoshoot</label>
+
+          <input type="radio" name="fillter-buttons" id="projects" />
+          <label for="projects">Projects</label>
+
+          <input type="radio" name="fillter-buttons" id="habits" />
+          <label for="habits">Habits</label>
+
+          <br />
+          <br />
+          <br />
+
+          <div class="box">
+            <!-- for programming tab -->
+            <div id="prog">
+              <div class="top-row">
+                <div class="card">
+                  <img src="img/html.png" alt="" />
+                  <h5>HTML</h5>
+                  <p class="original">
+                    HTML, or Hypertext Markup Language, is a fundamental tool
+                    for creating web pages. It provides a structure for
+                    organizing content on the internet, allowing for the
+                    presentation of text, images, and multimedia
+                  </p>
+
+                  <span class="dots">...</span>
+
+                  <p class="extra">
+                    HTML uses a system of tags and elements to define the layout
+                    and formatting of a webpage, enabling designers to create
+                    visually appealing and functional sites.
+                  </p>
+
+                  <input type="checkbox" id="btn1" />
+                  <label for="btn1" class="btn1"></label>
+                </div>
+
+                <div class="card">
+                  <img src="img/css.jpg" alt="" />
+                  <h5>CSS</h5>
+                  <p class="original">
+                    Coding CSS (Cascading Style Sheets) is like giving your web
+                    page a makeover It's all about making your HTML content look
+                    attractive and organized. With CSS, you can change colors,
+                    fonts, and layouts to match your design vision.
+                  </p>
+
+                  <span class="dots">...</span>
+
+                  <p class="extra">
+                    CSS can be applied internally within an HTML document,
+                    externally in a separate stylesheet, or inline for
+                    individual elements. This separation of content and style
+                    simplifies maintenance and enhances the flexibility of web
+                    development, making CSS an indispensable tool for crafting
+                    modern websites.
+                  </p>
+
+                  <input type="checkbox" id="btn2" />
+                  <label for="btn2" class="btn1"></label>
+                </div>
+
+                <div class="card">
+                  <img src="img/js.png" alt="" />
+                  <h5>JAVA SCRIPT</h5>
+                  <p class="original">
+                    JavaScript is a versatile programming language commonly used
+                    for web development. It enables the creation of dynamic and
+                    interactive web pages by adding functionality and behavior
+                    to HTML and CSS.
+                  </p>
+
+                  <span class="dots">...</span>
+
+                  <p class="extra">
+                    With JavaScript, developers can respond to user actions,
+                    validate forms, manipulate the Document Object Model (DOM),
+                    and communicate with servers through AJAX requests, among
+                    other tasks.
+                  </p>
+
+                  <input type="checkbox" id="btn3" />
+                  <label for="btn3" class="btn1"></label>
+                </div>
+              </div>
+
+              <div class="bottom-row">
+                <div class="card">
+                  <img src="img/img1.jpg" alt="" />
+                  <h5>Web Development</h5>
+                  <p class="original">
+                    Web development is like building a digital playground where
+                    you can have lots of fun. Imagine HTML as the foundation,
+                    which helps arrange everything neatly like Lego blocks. CSS
+                    comes in like the magical paintbrush, making your playground
+                    look cool with colors and designs.
+                  </p>
+
+                  <span class="dots">...</span>
+
+                  <p class="extra">
+                    JavaScript adds the exciting interactive features, like
+                    swings that move when you click on them. As you explore web
+                    development, you'll discover endless possibilities to create
+                    your own digital wonderland and have a blast doing it!
+                  </p>
+
+                  <input type="checkbox" id="btn4" />
+                  <label for="btn4" class="btn1"></label>
+                </div>
+
+                <div class="card">
+                  <img src="img/img2.jpg" alt="" />
+                  <h5>Java Languange</h5>
+                  <p class="original">
+                    Learning Java has been an incredible journey for me. At
+                    first, I found it challenging to grasp the concepts of
+                    object-oriented programming, but with persistence and
+                    dedication, I was able to overcome these obstacles.
+                  </p>
+
+                  <span class="dots">...</span>
+
+                  <p class="extra">
+                    Throughout my studies, I discovered the beauty of Java's
+                    simplicity and versatility, which made it easy for me to
+                    create robust applications.
+                  </p>
+
+                  <input type="checkbox" id="btn5" />
+                  <label for="btn5" class="btn1"></label>
+                </div>
+
+                <div class="card">
+                  <img src="img/img3.jpg" alt="" />
+                  <h5>C Language</h5>
+                  <p class="original">
+                    Learning C programming language was an exciting journey for
+                    me during my first year of college. At first, I found it
+                    challenging to understand the syntax and grammar rules, but
+                    with practice and patience, I gradually began to grasp the
+                    concepts.
+                  </p>
+                  <span class="dots">...</span>
+
+                  <p class="extra">
+                    Throughout the course, I enjoyed solving problems and
+                    creating small programs that could perform tasks like
+                    calculating averages or sorting numbers.
+                  </p>
+
+                  <input type="checkbox" id="btn6" />
+                  <label for="btn6" class="btn1"></label>
+                </div>
+              </div>
+            </div>
+
+            <!-- photoshoot -->
+
+            <div id="photos">
+              <div class="top-row">
+                <div class="card">
+                  <img src="img/mike4.jpg" alt="" />
+                  <h5>2021 Valentine's Day</h5>
+                </div>
+                <div class="card">
+                  <img src="img/mike5.jpg" alt="" />
+                  <h5>20th Birthday</h5>
+                </div>
+                <div class="card">
+                  <img src="img/mike3.jpg" alt="" />
+                  <h5>Grade 10 Recollection</h5>
+                </div>
+              </div>
+            </div>
+
+            <!-- projects -->
+
+            <div id="proj">
+              <div class="top-row">
+                <div class="card">
+                  <a href="img/rjmchat.png" target="_blank"
+                    ><img src="img/rjmchat.png" alt="" />
+                  </a>
+                  <h5>RJM CHAT APPLICATION</h5>
+                  <div class="pra">
+                    <p>
+                      This is our project in Networking 1 with the use of the
+                      programming language like Node JS, HTML, CSS AND
+                      JavaScript
+                    </p>
+                  </div>
+                  <br />
+                  <a
+                    href="https://group7-rjmchat.onrender.com/login?fbclid=IwAR2Ed0uLXNPHn2NraikvUvlNEPY988qCXMlqO-tshz7vRjQXT1dLENulso4"
+                    target="_blank"
+                    ><i class="fa-solid fa-link" style="font-size: 17px"></i
+                  ></a>
+                </div>
+                <div class="card">
+                  <a href="img/voteapp.png" target="_blank"
+                    ><img src="img/voteapp.png" alt="" />
+                  </a>
+                  <h5>VOTING APPLICATION</h5>
+                  <div class="pra">
+                    <p>
+                      This is my own project in Networking 1 with the use of the
+                      programming language like Node JS, HTML, CSS AND
+                      JavaScript
+                    </p>
+                  </div>
+                  <br />
+                  <a
+                    href="https://grp7-voting.onrender.com/vote"
+                    target="_blank"
+                    ><i class="fa-solid fa-link" style="font-size: 17px"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Habits -->
+            <div id="habits">
+              <div class="top-row">
+                <div class="card">
+                  <img src="img/habits1.jpg" alt="" />
+                  <h5>Watching NBA Game</h5>
+                </div>
+                <div class="card">
+                  <img src="img/drum.jpg" alt="" />
+                  <h5>Playing Drums</h5>
+                </div>
+                <div class="card">
+                  <img src="img/music.jpg" alt="" />
+                  <h5>Listening Music</h5>
+                </div>
+              </div>
+
+              <div class="bottom-row">
+                <div class="card">
+                  <img src="img/coc.jpg" alt="" />
+                  <h5>Playing Clash Of Clans</h5>
+                </div>
+                <div class="card">
+                  <img src="img/ml.jpg" alt="" />
+                  <h5>Playing Mobile Legends</h5>
+                </div>
+                <div class="card">
+                  <img src="img/movies.webp" alt="" />
+                  <h5>Watching Movies</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
