@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Khula:wght@300&family=Playfair+Display+SC&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Home Banner Section */
@@ -20,10 +21,11 @@
   align-items: center;
   z-index: 2;
   background-color: rgb(4, 4, 34);
+  min-height: 2vh;
 }
 
 .logo img {
-  max-height: 55px;
+  max-height: 53px;
 }
 
 .navbar a {
@@ -34,8 +36,7 @@
   margin-left: 35px;
 }
 
-.navbar a:hover,
-.navbar a.active {
+.navbar a:hover{
   color: lightseagreen;
 }
 
@@ -78,6 +79,7 @@
   max-width: 600px;
   color: #fff;
   text-align: right;
+  font-family: "Poppins", sans-serif;
 }
 
 .home-content h1 {
@@ -159,6 +161,7 @@ input {
 span {
   color: #fff;
 }
+
 .extra {
   display: none;
 }
@@ -663,3 +666,27 @@ p {
   text-align: center;
   margin-top: 20px;
 }
+
+/* Footer Section */
+footer {
+  text-align: center;
+  color: #fff;
+  padding: 25px 0;
+  background: #030214;
+}
+
+footer .copyright {
+  margin-bottom: 0.3rem;
+}
+
+footer .credits {
+  margin-bottom: 0;
+}
+
+footer .credits a {
+  color: #fff;
+}
+
+.JMV{
+  color: lightseagreen;
+} 
