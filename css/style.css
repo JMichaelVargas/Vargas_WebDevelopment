@@ -199,6 +199,10 @@ input[type="checkbox"]:checked ~ label:before {
   display: inline;
 }
 
+.dots{
+  font-size: 27px;
+}
+
 .card {
   height: auto;
   width: 335px;
