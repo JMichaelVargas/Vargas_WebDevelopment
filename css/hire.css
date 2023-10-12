@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Khula:wght@300&family=Playfair+Display+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url("rainbow-vortex.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+  background-color: #030214;
+  min-height: 2vh;
+}
+
+.logo img {
+  max-height: 53px;
+}
+.navbar a {
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+}
+
+.navbar a:hover {
+  color: lightseagreen;
+}
+
+.navbar a.contact-button {
+  background-color: lightseagreen;
+  padding: 8px 17px;
+  border-radius: 50px;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.navbar a.contact-button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.hire {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: lightseagreen;
+  text-align: center;
+}
+
+.hire h1{
+    font-size: 50px;
+}
